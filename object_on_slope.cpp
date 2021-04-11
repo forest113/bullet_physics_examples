@@ -18,9 +18,10 @@ subject to the following restrictions:
 #include <stdio.h>
 
 /// This is a Hello World program for running a basic Bullet physics simulation
-// A sphere is dropped from a height onto a cube(ground). po,vel,acceleration are printed and collision is detected and printed
-// when it occurs.
-
+// A sphere is dropped from a height onto a cube(ground), which is is rotated around x axis by 30 deg.
+//the sphere will hit it at around y = -5.
+//After collision, the sphere will roll down the slope, developing angular velocity in the x direction
+//(as plane is rotated in x dir.)
 int main(int argc, char** argv)
 {
 	///-----includes_end-----
